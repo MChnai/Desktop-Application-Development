@@ -1,0 +1,17 @@
+G:\STUDY\PTUDD\BTN_QLDA[4]\bin\Debug\BTN_QLDA[4].exe.config
+G:\STUDY\PTUDD\BTN_QLDA[4]\bin\Debug\BTN_QLDA[4].exe
+G:\STUDY\PTUDD\BTN_QLDA[4]\bin\Debug\BTN_QLDA[4].pdb
+G:\STUDY\PTUDD\BTN_QLDA[4]\obj\Debug\BTN_QLDA[4].csproj.AssemblyReference.cache
+G:\STUDY\PTUDD\BTN_QLDA[4]\obj\Debug\BTN_QLDA_4_.LoginForm.resources
+G:\STUDY\PTUDD\BTN_QLDA[4]\obj\Debug\BTN_QLDA_4_.Properties.Resources.resources
+G:\STUDY\PTUDD\BTN_QLDA[4]\obj\Debug\BTN_QLDA[4].csproj.GenerateResource.cache
+G:\STUDY\PTUDD\BTN_QLDA[4]\obj\Debug\BTN_QLDA[4].csproj.CoreCompileInputs.cache
+G:\STUDY\PTUDD\BTN_QLDA[4]\obj\Debug\BTN_QLDA[4].exe
+G:\STUDY\PTUDD\BTN_QLDA[4]\obj\Debug\BTN_QLDA[4].pdb
+G:\STUDY\PTUDD\BTN_QLDA[4]\obj\Debug\BTN_QLDA[4].exe.config
+G:\STUDY\PTUDD\BTN_QLDA[4]\obj\Debug\BTN_QLDA_4_.MainForm.resources
+G:\STUDY\PTUDD\BTN_QLDA[4]\obj\Debug\BTN_QLDA_4_.ManagingFieldsForm.resources
+G:\STUDY\PTUDD\BTN_QLDA[4]\obj\Debug\BTN_QLDA_4_.ManagingStudentForm.resources
+G:\STUDY\PTUDD\BTN_QLDA[4]\obj\Debug\BTN_QLDA_4_.ManagingLectureForm.resources
+G:\STUDY\PTUDD\BTN_QLDA[4]\obj\Debug\BTN_QLDA_4_.ManagingProjectForm.resources
+G:\STUDY\PTUDD\BTN_QLDA[4]\obj\Debug\BTN_QLDA_4_.STATISTIC.resources
