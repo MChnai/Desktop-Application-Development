@@ -1,0 +1,792 @@
+﻿namespace BTN_QLDA_12_.Forms.Student_Forms
+{
+    partial class Browse_Topics_W_SV2
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Browse_Topics_W_SV2));
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.label23 = new System.Windows.Forms.Label();
+            this.pnlRight = new System.Windows.Forms.FlowLayoutPanel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.btnFind = new System.Windows.Forms.Button();
+            this.chkStatus = new System.Windows.Forms.CheckBox();
+            this.cbbPeriod = new System.Windows.Forms.ComboBox();
+            this.cbbLecture = new System.Windows.Forms.ComboBox();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.lblProjects = new System.Windows.Forms.Label();
+            this.btnProjects = new System.Windows.Forms.PictureBox();
+            this.pnlDashboard = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pnlProjects = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.btnSideBar = new System.Windows.Forms.PictureBox();
+            this.pnSideBar = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.lblName = new System.Windows.Forms.TextBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.tmSideBar = new System.Windows.Forms.Timer(this.components);
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            this.panel15.SuspendLayout();
+            this.pnlRight.SuspendLayout();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnProjects)).BeginInit();
+            this.pnlDashboard.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pnlProjects.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnSideBar)).BeginInit();
+            this.pnSideBar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panel7.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(11, 9);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(15, 15);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 0;
+            this.pictureBox9.TabStop = false;
+            // 
+            // panel15
+            // 
+            this.panel15.Controls.Add(this.label23);
+            this.panel15.Controls.Add(this.pictureBox9);
+            this.panel15.Location = new System.Drawing.Point(1, 298);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(214, 38);
+            this.panel15.TabIndex = 8;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Roboto", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(238)))));
+            this.label23.Location = new System.Drawing.Point(35, 7);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(153, 22);
+            this.label23.TabIndex = 1;
+            this.label23.Text = "Thông tin cá nhân";
+            // 
+            // pnlRight
+            // 
+            this.pnlRight.AutoScroll = true;
+            this.pnlRight.BackColor = System.Drawing.SystemColors.Control;
+            this.pnlRight.Controls.Add(this.label8);
+            this.pnlRight.Controls.Add(this.panel6);
+            this.pnlRight.Controls.Add(this.panel4);
+            this.pnlRight.Controls.Add(this.label11);
+            this.pnlRight.Controls.Add(this.panel7);
+            this.pnlRight.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlRight.Location = new System.Drawing.Point(10, 65);
+            this.pnlRight.MaximumSize = new System.Drawing.Size(1235, 520);
+            this.pnlRight.MinimumSize = new System.Drawing.Size(1235, 500);
+            this.pnlRight.Name = "pnlRight";
+            this.pnlRight.Size = new System.Drawing.Size(1235, 520);
+            this.pnlRight.TabIndex = 151;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.SystemColors.Control;
+            this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label8.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(37)))), ((int)(((byte)(60)))));
+            this.label8.Location = new System.Drawing.Point(30, 20);
+            this.label8.Margin = new System.Windows.Forms.Padding(30, 20, 0, 0);
+            this.label8.Name = "label8";
+            this.label8.Padding = new System.Windows.Forms.Padding(0, 0, 600, 0);
+            this.label8.Size = new System.Drawing.Size(1025, 37);
+            this.label8.TabIndex = 94;
+            this.label8.Text = "TÌM KIẾM VÀ ĐĂNG KÝ ĐỀ TÀI";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(37)))), ((int)(((byte)(60)))));
+            this.panel6.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.panel6.Location = new System.Drawing.Point(30, 77);
+            this.panel6.Margin = new System.Windows.Forms.Padding(30, 20, 0, 0);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(1160, 5);
+            this.panel6.TabIndex = 99;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.btnFind);
+            this.panel4.Controls.Add(this.chkStatus);
+            this.panel4.Controls.Add(this.cbbPeriod);
+            this.panel4.Controls.Add(this.cbbLecture);
+            this.panel4.Controls.Add(this.txtSearch);
+            this.panel4.Controls.Add(this.label6);
+            this.panel4.Controls.Add(this.label10);
+            this.panel4.Controls.Add(this.label9);
+            this.panel4.Location = new System.Drawing.Point(30, 102);
+            this.panel4.Margin = new System.Windows.Forms.Padding(30, 20, 0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(1160, 182);
+            this.panel4.TabIndex = 104;
+            // 
+            // btnFind
+            // 
+            this.btnFind.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(179)))));
+            this.btnFind.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFind.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Bold);
+            this.btnFind.ForeColor = System.Drawing.Color.White;
+            this.btnFind.Location = new System.Drawing.Point(990, 42);
+            this.btnFind.Margin = new System.Windows.Forms.Padding(0, 15, 0, 0);
+            this.btnFind.Name = "btnFind";
+            this.btnFind.Size = new System.Drawing.Size(147, 33);
+            this.btnFind.TabIndex = 140;
+            this.btnFind.Text = "Tìm";
+            this.btnFind.UseVisualStyleBackColor = false;
+            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
+            // 
+            // chkStatus
+            // 
+            this.chkStatus.AutoSize = true;
+            this.chkStatus.Font = new System.Drawing.Font("Roboto Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkStatus.Location = new System.Drawing.Point(471, 126);
+            this.chkStatus.Name = "chkStatus";
+            this.chkStatus.Size = new System.Drawing.Size(249, 28);
+            this.chkStatus.TabIndex = 133;
+            this.chkStatus.Text = "Chỉ hiện đề tài còn trống";
+            this.chkStatus.UseVisualStyleBackColor = true;
+            // 
+            // cbbPeriod
+            // 
+            this.cbbPeriod.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cbbPeriod.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbbPeriod.FormattingEnabled = true;
+            this.cbbPeriod.Location = new System.Drawing.Point(25, 126);
+            this.cbbPeriod.Name = "cbbPeriod";
+            this.cbbPeriod.Size = new System.Drawing.Size(378, 30);
+            this.cbbPeriod.TabIndex = 132;
+            // 
+            // cbbLecture
+            // 
+            this.cbbLecture.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cbbLecture.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbbLecture.FormattingEnabled = true;
+            this.cbbLecture.Location = new System.Drawing.Point(471, 45);
+            this.cbbLecture.Name = "cbbLecture";
+            this.cbbLecture.Size = new System.Drawing.Size(378, 30);
+            this.cbbLecture.TabIndex = 132;
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtSearch.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearch.Location = new System.Drawing.Point(24, 46);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(411, 30);
+            this.txtSearch.TabIndex = 128;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.White;
+            this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label6.Font = new System.Drawing.Font("Roboto Medium", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(37)))), ((int)(((byte)(60)))));
+            this.label6.Location = new System.Drawing.Point(20, 88);
+            this.label6.Margin = new System.Windows.Forms.Padding(30, 20, 0, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(112, 28);
+            this.label6.TabIndex = 94;
+            this.label6.Text = "Đợt đồ án";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.White;
+            this.label10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label10.Font = new System.Drawing.Font("Roboto Medium", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(37)))), ((int)(((byte)(60)))));
+            this.label10.Location = new System.Drawing.Point(466, 7);
+            this.label10.Margin = new System.Windows.Forms.Padding(30, 20, 0, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(212, 28);
+            this.label10.TabIndex = 94;
+            this.label10.Text = "Lọc theo giảng viên";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.White;
+            this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label9.Font = new System.Drawing.Font("Roboto Medium", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(37)))), ((int)(((byte)(60)))));
+            this.label9.Location = new System.Drawing.Point(19, 8);
+            this.label9.Margin = new System.Windows.Forms.Padding(30, 20, 0, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(207, 28);
+            this.label9.TabIndex = 94;
+            this.label9.Text = "Tìm theo tên đề tài";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.SystemColors.Control;
+            this.label11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label11.Font = new System.Drawing.Font("Roboto Medium", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(37)))), ((int)(((byte)(60)))));
+            this.label11.Location = new System.Drawing.Point(30, 304);
+            this.label11.Margin = new System.Windows.Forms.Padding(30, 20, 900, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(184, 28);
+            this.label11.TabIndex = 94;
+            this.label11.Text = "Danh sách đề tài";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblProjects
+            // 
+            this.lblProjects.AutoSize = true;
+            this.lblProjects.Font = new System.Drawing.Font("Roboto", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProjects.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(58)))), ((int)(((byte)(97)))));
+            this.lblProjects.Location = new System.Drawing.Point(37, 8);
+            this.lblProjects.Name = "lblProjects";
+            this.lblProjects.Size = new System.Drawing.Size(98, 22);
+            this.lblProjects.TabIndex = 1;
+            this.lblProjects.Text = "Dashboard";
+            // 
+            // btnProjects
+            // 
+            this.btnProjects.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(58)))), ((int)(((byte)(97)))));
+            this.btnProjects.Image = ((System.Drawing.Image)(resources.GetObject("btnProjects.Image")));
+            this.btnProjects.Location = new System.Drawing.Point(11, 9);
+            this.btnProjects.Name = "btnProjects";
+            this.btnProjects.Size = new System.Drawing.Size(15, 15);
+            this.btnProjects.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnProjects.TabIndex = 0;
+            this.btnProjects.TabStop = false;
+            // 
+            // pnlDashboard
+            // 
+            this.pnlDashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(238)))));
+            this.pnlDashboard.Controls.Add(this.lblProjects);
+            this.pnlDashboard.Controls.Add(this.btnProjects);
+            this.pnlDashboard.Location = new System.Drawing.Point(1, 78);
+            this.pnlDashboard.Name = "pnlDashboard";
+            this.pnlDashboard.Size = new System.Drawing.Size(214, 38);
+            this.pnlDashboard.TabIndex = 8;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Roboto", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(238)))));
+            this.label2.Location = new System.Drawing.Point(35, 7);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(144, 22);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Danh sách đề tài";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(11, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(15, 15);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pnlProjects
+            // 
+            this.pnlProjects.Controls.Add(this.label2);
+            this.pnlProjects.Controls.Add(this.pictureBox1);
+            this.pnlProjects.Location = new System.Drawing.Point(1, 122);
+            this.pnlProjects.Name = "pnlProjects";
+            this.pnlProjects.Size = new System.Drawing.Size(214, 38);
+            this.pnlProjects.TabIndex = 8;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Roboto", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(238)))));
+            this.label3.Location = new System.Drawing.Point(35, 7);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(114, 22);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Đồ án của tôi";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(11, 9);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(15, 15);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Location = new System.Drawing.Point(0, 166);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(214, 38);
+            this.panel1.TabIndex = 8;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Roboto", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(238)))));
+            this.label4.Location = new System.Drawing.Point(35, 7);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(84, 22);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Kế hoạch";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(11, 9);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(15, 15);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Roboto", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(238)))));
+            this.label5.Location = new System.Drawing.Point(35, 7);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(169, 22);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Thư viện đồ án mẫu";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(11, 9);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(15, 15);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 0;
+            this.pictureBox5.TabStop = false;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.label5);
+            this.panel3.Controls.Add(this.pictureBox5);
+            this.panel3.Location = new System.Drawing.Point(1, 254);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(214, 38);
+            this.panel3.TabIndex = 8;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.White;
+            this.label7.Font = new System.Drawing.Font("Roboto", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(37)))), ((int)(((byte)(60)))));
+            this.label7.Location = new System.Drawing.Point(990, -134);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(119, 22);
+            this.label7.TabIndex = 150;
+            this.label7.Text = "Tên tài khoản";
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.White;
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(954, -138);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 148;
+            this.pictureBox8.TabStop = false;
+            // 
+            // btnSideBar
+            // 
+            this.btnSideBar.BackColor = System.Drawing.Color.White;
+            this.btnSideBar.Image = ((System.Drawing.Image)(resources.GetObject("btnSideBar.Image")));
+            this.btnSideBar.Location = new System.Drawing.Point(-104, -142);
+            this.btnSideBar.Name = "btnSideBar";
+            this.btnSideBar.Size = new System.Drawing.Size(40, 35);
+            this.btnSideBar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnSideBar.TabIndex = 149;
+            this.btnSideBar.TabStop = false;
+            // 
+            // pnSideBar
+            // 
+            this.pnSideBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(37)))), ((int)(((byte)(60)))));
+            this.pnSideBar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnSideBar.Controls.Add(this.label1);
+            this.pnSideBar.Controls.Add(this.pictureBox3);
+            this.pnSideBar.Controls.Add(this.panel15);
+            this.pnSideBar.Controls.Add(this.panel3);
+            this.pnSideBar.Controls.Add(this.panel2);
+            this.pnSideBar.Controls.Add(this.panel1);
+            this.pnSideBar.Controls.Add(this.pnlProjects);
+            this.pnSideBar.Controls.Add(this.pnlDashboard);
+            this.pnSideBar.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnSideBar.Location = new System.Drawing.Point(0, 0);
+            this.pnSideBar.MaximumSize = new System.Drawing.Size(215, 710);
+            this.pnSideBar.MinimumSize = new System.Drawing.Size(2, 710);
+            this.pnSideBar.Name = "pnSideBar";
+            this.pnSideBar.Size = new System.Drawing.Size(10, 710);
+            this.pnSideBar.TabIndex = 147;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Roboto Black", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(238)))));
+            this.label1.Location = new System.Drawing.Point(16, 17);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(179, 28);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "QUẢN LÝ ĐỒ ÁN";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(238)))));
+            this.pictureBox3.Location = new System.Drawing.Point(12, 56);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(188, 5);
+            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.pictureBox4);
+            this.panel2.Location = new System.Drawing.Point(1, 210);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(214, 38);
+            this.panel2.TabIndex = 8;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.BackColor = System.Drawing.Color.White;
+            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
+            this.pictureBox11.Location = new System.Drawing.Point(22, 12);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(40, 35);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox11.TabIndex = 154;
+            this.pictureBox11.TabStop = false;
+            this.pictureBox11.Click += new System.EventHandler(this.pictureBox11_Click);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.White;
+            this.pictureBox7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox7.Location = new System.Drawing.Point(10, 0);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(1232, 65);
+            this.pictureBox7.TabIndex = 152;
+            this.pictureBox7.TabStop = false;
+            // 
+            // lblName
+            // 
+            this.lblName.BackColor = System.Drawing.Color.White;
+            this.lblName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lblName.Font = new System.Drawing.Font("Roboto Condensed", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.Location = new System.Drawing.Point(982, 18);
+            this.lblName.Name = "lblName";
+            this.lblName.ReadOnly = true;
+            this.lblName.Size = new System.Drawing.Size(218, 22);
+            this.lblName.TabIndex = 124;
+            this.lblName.Text = "AccountName";
+            this.lblName.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.White;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(1206, 18);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 123;
+            this.pictureBox6.TabStop = false;
+            // 
+            // tmSideBar
+            // 
+            this.tmSideBar.Interval = 10;
+            this.tmSideBar.Tick += new System.EventHandler(this.tmSideBar_Tick);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.White;
+            this.label17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label17.Font = new System.Drawing.Font("Roboto Medium", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(123)))), ((int)(((byte)(255)))));
+            this.label17.Location = new System.Drawing.Point(19, 8);
+            this.label17.Margin = new System.Windows.Forms.Padding(30, 20, 0, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(114, 28);
+            this.label17.TabIndex = 94;
+            this.label17.Text = "Tên đề tài";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.White;
+            this.label16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label16.Font = new System.Drawing.Font("Roboto Condensed Medium", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.Black;
+            this.label16.Location = new System.Drawing.Point(20, 43);
+            this.label16.Margin = new System.Windows.Forms.Padding(30, 20, 0, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(143, 22);
+            this.label16.TabIndex = 94;
+            this.label16.Text = "GV. Tên giảng viên";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.White;
+            this.label15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label15.Font = new System.Drawing.Font("Roboto Condensed Medium", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.DarkGray;
+            this.label15.Location = new System.Drawing.Point(20, 74);
+            this.label15.Margin = new System.Windows.Forms.Padding(30, 20, 0, 0);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(105, 22);
+            this.label15.TabIndex = 94;
+            this.label15.Text = "Chi tiết đề tài";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(167)))), ((int)(((byte)(69)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Bold);
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(396, 195);
+            this.button4.Margin = new System.Windows.Forms.Padding(0, 15, 0, 0);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(95, 33);
+            this.button4.TabIndex = 153;
+            this.button4.Text = "Đăng ký";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Roboto Condensed", 12F, System.Drawing.FontStyle.Bold);
+            this.button3.ForeColor = System.Drawing.Color.Black;
+            this.button3.Location = new System.Drawing.Point(236, 195);
+            this.button3.Margin = new System.Windows.Forms.Padding(0, 15, 0, 0);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(147, 33);
+            this.button3.TabIndex = 153;
+            this.button3.Text = "Xem chi tiết";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(515, 10);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(200, 100);
+            this.flowLayoutPanel1.TabIndex = 154;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.White;
+            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel7.Controls.Add(this.flowLayoutPanel1);
+            this.panel7.Controls.Add(this.button3);
+            this.panel7.Controls.Add(this.button4);
+            this.panel7.Controls.Add(this.label15);
+            this.panel7.Controls.Add(this.label16);
+            this.panel7.Controls.Add(this.label17);
+            this.panel7.Location = new System.Drawing.Point(50, 352);
+            this.panel7.Margin = new System.Windows.Forms.Padding(50, 20, 0, 20);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(517, 247);
+            this.panel7.TabIndex = 155;
+            // 
+            // Browse_Topics_W_SV2
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1242, 585);
+            this.Controls.Add(this.pnlRight);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.btnSideBar);
+            this.Controls.Add(this.pictureBox11);
+            this.Controls.Add(this.lblName);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.pnSideBar);
+            this.Name = "Browse_Topics_W_SV2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Tìm kiếm và đăng ký đề tài";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            this.panel15.ResumeLayout(false);
+            this.panel15.PerformLayout();
+            this.pnlRight.ResumeLayout(false);
+            this.pnlRight.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnProjects)).EndInit();
+            this.pnlDashboard.ResumeLayout(false);
+            this.pnlDashboard.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.pnlProjects.ResumeLayout(false);
+            this.pnlProjects.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnSideBar)).EndInit();
+            this.pnSideBar.ResumeLayout(false);
+            this.pnSideBar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.Panel panel15;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.FlowLayoutPanel pnlRight;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Label lblProjects;
+        private System.Windows.Forms.PictureBox btnProjects;
+        private System.Windows.Forms.Panel pnlDashboard;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel pnlProjects;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox btnSideBar;
+        private System.Windows.Forms.Panel pnSideBar;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.CheckBox chkStatus;
+        private System.Windows.Forms.ComboBox cbbLecture;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox lblName;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Timer tmSideBar;
+        private System.Windows.Forms.ComboBox cbbPeriod;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnFind;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+    }
+}
