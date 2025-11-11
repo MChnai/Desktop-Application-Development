@@ -15,6 +15,6 @@ namespace BTN_QLDA_12_.Models.Student
         public string AttachmentFile { get; set; }
         public DateTime FeedbackDate { get; set; }
         public virtual Projects Project { get; set; }
-        public virtual User_Role.User Sender { get; set; }
+        public virtual User Sender { get; set; }
     }
 }

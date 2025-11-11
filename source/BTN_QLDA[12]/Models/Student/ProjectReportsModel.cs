@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BTN_QLDA_12_.Models.Student
 {
-    public class ProjectReports
+    public class ProjectReportsModel
     {
         public int ReportID { get; set; }
         public int ProjectID { get; set; }
@@ -17,8 +17,6 @@ namespace BTN_QLDA_12_.Models.Student
         public string NextWeekPlan { get; set; }
         public string Notes { get; set; }
         public DateTime SubmissionDate { get; set; }
-        public virtual Projects Project { get; set; }
-        public virtual User Submitter { get; set; }
-        public virtual ICollection<ReportFiles> ReportFiles { get; set; }
+
     }
 }

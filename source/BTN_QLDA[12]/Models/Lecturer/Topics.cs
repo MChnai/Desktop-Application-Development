@@ -18,9 +18,9 @@ namespace BTN_QLDA_12_.Models.Lecturer
         public int MaxStudents { get; set; }
         public string Status { get; set; }
         public virtual Admin.ProjectPeriods ProjectPeriod { get; set; }
-        public virtual User_Role.User Lecturer { get; set; }
+        public virtual User Lecturer { get; set; }
         public virtual ICollection<TopicRegistrations> TopicRegistrations { get; set; }
-        public virtual Projects Project { get; set; } // 1-1
+        public virtual ICollection<Projects> Project { get; set; } // 1-1
     }
     public enum TopicStatus
     {

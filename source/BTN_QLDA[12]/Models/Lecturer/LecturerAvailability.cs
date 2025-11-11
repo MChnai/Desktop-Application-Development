@@ -15,6 +15,6 @@ namespace BTN_QLDA_12_.Models.Lecturer
         public Timer StartTime { get; set; }
         public Timer EndTime { get; set; }
         public string SlotDuration { get; set; }
-        public virtual User_Role.User Lecturer { get; set; }
+        public virtual User Lecturer { get; set; }
     }
 }

@@ -37,7 +37,7 @@ namespace BTN_QLDA_12_.Models
         public DbSet<ProjectMembers> ProjectMembers{ get; set; }
         public DbSet<ProjectReports> ProjectReports{ get; set; }
         public DbSet<Projects> Projects{ get; set; }
-        public DbSet<ProjectTasks> ProjectTaskss{ get; set; }
+        public DbSet<ProjectTasks> ProjectTasks{ get; set; }
         public DbSet<ReportFiles> ReportFiles{ get; set; }
         public DbSet<TopicRegistrations> TopicRegistrations{ get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -224,11 +224,11 @@ namespace BTN_QLDA_12_.Models
             //modelBuilder.Entity<LecturerAvailability>().Property(la => la.EndTime).IsRequired().HasColumnType("time");
 
             // Quan hệ LecturerAvailability -> User (Lecturer) (ON DELETE CASCADE)
-            modelBuilder.Entity<LecturerAvailability>()
-                .HasRequired(la => la.Lecturer)
-                .WithMany(u => u.Availabilities) // Giả sử User có ICollection<LecturerAvailability> Availabilities
-                .HasForeignKey(la => la.LecturerID)
-                .WillCascadeOnDelete(true);
+            //modelBuilder.Entity<LecturerAvailability>()
+            //    .HasRequired(la => la.Lecturer)
+            //    .WithMany(u => u.Availabilities) // Giả sử User có ICollection<LecturerAvailability> Availabilities
+            //    .HasForeignKey(la => la.LecturerID)
+            //    .WillCascadeOnDelete(true);
 
             // --- PHẦN 4: BẢNG LUỒNG SINH VIÊN & TƯƠNG TÁC ---
 
@@ -281,10 +281,10 @@ namespace BTN_QLDA_12_.Models
             modelBuilder.Entity<Projects>().Property(p => p.GradeStatus).IsRequired().HasMaxLength(10);
             modelBuilder.Entity<Projects>().Property(p => p.IsPublicSample).IsRequired();
 
-            // Quan hệ 1-1: Project -> Topic
-            modelBuilder.Entity<Projects>()
-                .HasRequired(p => p.Topic)
-                .WithOptional(t => t.Project); // Giả sử Topic có 'public virtual Project Project { get; set; }'
+            //// Quan hệ 1-1: Project -> Topic
+            //modelBuilder.Entity<Projects>()
+            //    .HasRequired(p => p.Topic)
+            //    .WithOptional(t => t.Project); // Giả sử Topic có 'public virtual Project Project { get; set; }'
 
             modelBuilder.Entity<ProjectMembers>()
                 .ToTable("ProjectMembers")
@@ -422,12 +422,12 @@ namespace BTN_QLDA_12_.Models
                     new IndexAnnotation(new IndexAttribute("UQ_ProjectGrades_ProjectCriterion", 2) { IsUnique = true }));
 
             modelBuilder.Entity<ProjectTasks>()
-                .ToTable("ProjectTaskss")
+                .ToTable("ProjectTasks")
                 .HasKey(pt => pt.TaskID);
 
-            modelBuilder.Entity<ProjectTasks>().Property(pt => pt.TaskName).IsRequired().HasMaxLength(255);
-            modelBuilder.Entity<ProjectTasks>().Property(pt => pt.DueDate).IsOptional().HasColumnType("date");
-            modelBuilder.Entity<ProjectTasks>().Property(pt => pt.IsCompleted).IsRequired();
+            //modelBuilder.Entity<ProjectTasks>().Property(pt => pt.TaskName).IsRequired().HasMaxLength(255);
+            //modelBuilder.Entity<ProjectTasks>().Property(pt => pt.DueDate).IsOptional().HasColumnType("date");
+            //modelBuilder.Entity<ProjectTasks>().Property(pt => pt.IsCompleted).IsRequired();
 
             // Quan hệ ProjectTasks -> Project (ON DELETE CASCADE)
             modelBuilder.Entity<ProjectTasks>()
@@ -436,7 +436,7 @@ namespace BTN_QLDA_12_.Models
                 .HasForeignKey(pt => pt.ProjectID)
                 .WillCascadeOnDelete(true);
 
-            // Quan hệ ProjectTasks -> User (Creator)
+            //// Quan hệ ProjectTasks -> User (Creator)
             //modelBuilder.Entity<ProjectTasks>()
             //    .HasRequired(pt => pt.Creator)
             //    .WithMany(u => u.ProjectTasks) // Giả sử User có ICollection<ProjectTasks> CreatedTasks

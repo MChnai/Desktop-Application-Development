@@ -12,6 +12,6 @@ namespace BTN_QLDA_12_.Models.Lecturer
         public int LecturerID { get; set; }
         public string ShortcutName { get; set; }
         public string Content { get; set; }
-        public virtual User_Role.User Lecturer { get; set; }
+        public virtual User Lecturer { get; set; }
     }
 }

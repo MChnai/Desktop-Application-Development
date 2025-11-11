@@ -16,6 +16,6 @@ namespace BTN_QLDA_12_.Models.Student
         public string FileURL { get; set; }
         public DateTime SubmissionDate { get; set; }
         public virtual Projects Project { get; set; }
-        public virtual User_Role.User Submitter { get; set; }
+        public virtual Models.User Submitter { get; set; }
     }
 }
