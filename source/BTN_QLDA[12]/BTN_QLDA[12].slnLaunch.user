@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "..\\Server\\MyLocalFileServer\\MyLocalFileServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "BTN_QLDA[12].csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
